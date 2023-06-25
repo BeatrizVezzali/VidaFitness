@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510438585684",
+    "project_id": "vida-fitness-6580a",
+    "storage_bucket": "vida-fitness-6580a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510438585684:android:fcf680ed0b3007d56644c1",
+        "android_client_info": {
+          "package_name": "com.vidafitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510438585684-bg639djaqdc5er489d06b5v8g2ia1kc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Sv6XmA5_9C6iMtHwhzfxgrCDWMAZsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510438585684-bg639djaqdc5er489d06b5v8g2ia1kc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
