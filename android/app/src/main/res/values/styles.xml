@@ -6,4 +6,10 @@
         <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
     </style>
 
+    <!-- Código adicionado -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
 </resources>

@@ -3,10 +3,30 @@ import {Text, View, Button, TouchableOpacity, ScrollView, TextInput, StyleSheet,
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icone from 'react-native-vector-icons/Ionicons';
+import SplashScreen from 'react-native-splash-screen';
 import cadastroItem from './src/Model/cadastroItem';
 import crud_rn from './src/Database/crud_rn';
 //O arquivo da database foi editado, mas talvez não seja utilizado no momento, mas já tem mais de três requisitos no projeto//
 
+const App = () => {
+    useEffect( () => {
+      SplashScreen.hide();
+    }, []);
+  
+    return (
+      <View style={styles.container}>
+        <Text>Seu aplicativo foi carregado com sucesso!</Text>
+      </View>
+    );
+  }  
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      paddingTop: 250,
+      alignItems: "center"
+    }
+  });
+  //Splas Screen//
 function HomeScreen({navigation}) {
   return (
     <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
